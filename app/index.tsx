@@ -1,5 +1,6 @@
-import Product from "@/components/Product";
-import { FlatList } from "react-native";
+import WithState from "@/components/1. Basic Counter/WithState";
+import { View } from "react-native";
+
 
 
 export default function Index() {
@@ -55,21 +56,26 @@ export default function Index() {
     //   {/* <ArrayOfObject/> */}
     //   {/* <HugeComponent/> */}
     //   {/* <ParentComponent /> */}
-    // </View>  
-    <FlatList
-      data={product}
-      renderItem={({ item }) => (
-        <Product
-          name={item.productName}
-          image={item.productImage}
-          price={item.productPrice}
-          description={item.productDesc}
-          isFeatured={item.isFeatured}
-        />
+    // </View>
+    // <FlatList
+    //   data={product}
+    //   renderItem={({ item }) => (
+    //     <Product
+    //       name={item.productName}
+    //       image={item.productImage}
+    //       price={item.productPrice}
+    //       description={item.productDesc}
+    //       isFeatured={item.isFeatured}
+    //     />
 
-      )}
-
-    />
-    
+    //   )}
+    // />
+    <View>
+      {/* <ConditionalStatement /> */}
+      {/* <AndOperator /> */}
+      {/* <TernaryOperator /> */}
+      {/* <WithoutState /> */}
+      <WithState />
+    </View>
   );
 }
