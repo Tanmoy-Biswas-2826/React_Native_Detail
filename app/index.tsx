@@ -1,4 +1,4 @@
-import UpdateArrays from "@/components/UpdatingArrays/UpdateArrays";
+import UpdateObject from "@/components/UpdateObjects.tsx/UpdateObject";
 import { View } from "react-native";
 
 
@@ -76,7 +76,8 @@ export default function Index() {
       {/* <TernaryOperator /> */}
       {/* <WithoutState /> */}
       {/* <WithState /> */}
-      <UpdateArrays />
+      {/* <UpdateArrays /> */}
+      <UpdateObject />
     </View>
   );
 }
