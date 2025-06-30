@@ -1,4 +1,4 @@
-import WithState from "@/components/1. Basic Counter/WithState";
+import UpdateArrays from "@/components/UpdatingArrays/UpdateArrays";
 import { View } from "react-native";
 
 
@@ -75,7 +75,8 @@ export default function Index() {
       {/* <AndOperator /> */}
       {/* <TernaryOperator /> */}
       {/* <WithoutState /> */}
-      <WithState />
+      {/* <WithState /> */}
+      <UpdateArrays />
     </View>
   );
 }
