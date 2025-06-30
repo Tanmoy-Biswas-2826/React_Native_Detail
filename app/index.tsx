@@ -1,4 +1,4 @@
-import SharingState from "@/components/4. Sharing State/SharingState";
+import ToggleButton from "@/components/ToggleButton/ToggleButton";
 import { View } from "react-native";
 
 
@@ -78,7 +78,8 @@ export default function Index() {
       {/* <WithState /> */}
       {/* <UpdateArrays /> */}
       {/* <UpdateObject /> */}
-      <SharingState />
+      {/* <SharingState /> */}
+      <ToggleButton />
     </View>
   );
 }
