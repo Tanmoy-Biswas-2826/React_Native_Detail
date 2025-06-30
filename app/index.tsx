@@ -1,4 +1,4 @@
-import UpdateObject from "@/components/UpdateObjects.tsx/UpdateObject";
+import SharingState from "@/components/4. Sharing State/SharingState";
 import { View } from "react-native";
 
 
@@ -77,7 +77,8 @@ export default function Index() {
       {/* <WithoutState /> */}
       {/* <WithState /> */}
       {/* <UpdateArrays /> */}
-      <UpdateObject />
+      {/* <UpdateObject /> */}
+      <SharingState />
     </View>
   );
 }
